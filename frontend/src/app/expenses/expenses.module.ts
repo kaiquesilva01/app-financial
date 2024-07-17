@@ -7,7 +7,7 @@ import { ExpensesComponent } from './expenses/expenses.component';
 
 @NgModule({
   declarations: [
-    
+    ExpensesComponent
   ],
   imports: [
     CommonModule,

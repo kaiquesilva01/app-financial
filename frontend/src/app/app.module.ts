@@ -7,12 +7,11 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { ExpensesComponent } from './expenses/expenses/expenses.component';
+import { ExpensesModule } from './expenses/expenses.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ExpensesComponent
   ],
   imports: [
     BrowserModule,
@@ -20,6 +19,7 @@ import { ExpensesComponent } from './expenses/expenses/expenses.component';
     MatIconModule,
     MatButtonModule,
     MatToolbarModule,
+    ExpensesModule,
   ],
   providers: [
     provideClientHydration(),
